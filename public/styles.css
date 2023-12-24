@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e50; /* Couleur de fond */
+    color: #ecf0f1; /* Couleur du texte */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db; /* Couleur du bouton */
+    color: #ecf0f1; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Couleur du bouton au survol */
+  }
+  
+  #randomName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  
+  footer {
+    background-color: #34495e; /* Couleur de fond du pied de page */
+    color: #ecf0f1; /* Couleur du texte du pied de page */
+    padding: 10px; /* Espacement intérieur du pied de page */
+    text-align: center; /* Alignement du texte au centre */
+    position: fixed; /* Position fixe en bas de la page */
+    width: 100%; /* Largeur de 100% de la page */
+    bottom: 0; /* En bas de la page */
+  }
+  
